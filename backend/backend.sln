@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{CC038B89-412B-424D-A0A4-DD90A9617E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{CC48EFDD-AD28-4CAE-B9E0-C9424A43812F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kredek.Tools.OAuthTokenGenerator", "Tools\Kredek.Tools.OAuthTokenGenerator\Kredek.Tools.OAuthTokenGenerator.csproj", "{9C87F8A8-A7D1-4F45-A2F2-56CFB4678F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kredek.Api.Web", "Api\Kredek.Api.Web\Kredek.Api.Web.csproj", "{BFC4C8BA-D7D1-4018-BAE2-AAF7C72B9E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kredek.Api.Common", "Api\Kredek.Api.Common\Kredek.Api.Common.csproj", "{997DA7D3-B6AC-4041-B9C9-ECDC51A213DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kredek.Api.Core", "Api\Kredek.Api.Core\Kredek.Api.Core.csproj", "{16792131-044F-46AA-8C3C-90D7E32236C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kredek.Api.Infrastructure", "Api\Kredek.Api.Infrastructure\Kredek.Api.Infrastructure.csproj", "{D39EEEED-172E-4D0E-B542-4A4BC0836533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C87F8A8-A7D1-4F45-A2F2-56CFB4678F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C87F8A8-A7D1-4F45-A2F2-56CFB4678F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C87F8A8-A7D1-4F45-A2F2-56CFB4678F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C87F8A8-A7D1-4F45-A2F2-56CFB4678F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC4C8BA-D7D1-4018-BAE2-AAF7C72B9E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC4C8BA-D7D1-4018-BAE2-AAF7C72B9E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC4C8BA-D7D1-4018-BAE2-AAF7C72B9E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC4C8BA-D7D1-4018-BAE2-AAF7C72B9E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997DA7D3-B6AC-4041-B9C9-ECDC51A213DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997DA7D3-B6AC-4041-B9C9-ECDC51A213DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997DA7D3-B6AC-4041-B9C9-ECDC51A213DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997DA7D3-B6AC-4041-B9C9-ECDC51A213DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16792131-044F-46AA-8C3C-90D7E32236C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16792131-044F-46AA-8C3C-90D7E32236C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16792131-044F-46AA-8C3C-90D7E32236C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16792131-044F-46AA-8C3C-90D7E32236C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39EEEED-172E-4D0E-B542-4A4BC0836533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39EEEED-172E-4D0E-B542-4A4BC0836533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39EEEED-172E-4D0E-B542-4A4BC0836533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39EEEED-172E-4D0E-B542-4A4BC0836533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C87F8A8-A7D1-4F45-A2F2-56CFB4678F59} = {CC038B89-412B-424D-A0A4-DD90A9617E3B}
+		{BFC4C8BA-D7D1-4018-BAE2-AAF7C72B9E06} = {CC48EFDD-AD28-4CAE-B9E0-C9424A43812F}
+		{997DA7D3-B6AC-4041-B9C9-ECDC51A213DB} = {CC48EFDD-AD28-4CAE-B9E0-C9424A43812F}
+		{16792131-044F-46AA-8C3C-90D7E32236C4} = {CC48EFDD-AD28-4CAE-B9E0-C9424A43812F}
+		{D39EEEED-172E-4D0E-B542-4A4BC0836533} = {CC48EFDD-AD28-4CAE-B9E0-C9424A43812F}
+	EndGlobalSection
+EndGlobal
