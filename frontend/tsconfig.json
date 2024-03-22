@@ -1,25 +1,73 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "inlineSourceMap": false,
     "jsx": "react-jsx",
-
-    /* Linting */
-    "strict": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noEmitOnError": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "paths": {
+      "*": ["src/*"],
+      "cypress/*": ["cypress/*"],
+      "typings/*": ["typings/*"],
+      "components": ["src/components/index.ts"],
+      "context": ["src/context/index.ts"],
+      "hooks": ["src/hooks/index.ts"],
+      "lib": ["src/lib/index.ts"],
+      "routing": ["src/routing/index.ts"],
+      "style": ["src/style/index.ts"],
+      "test": ["src/test/index.ts"],
+      "types": ["src/types/index.ts"],
+      "views": ["src/views/index.ts"]
+    },
+    "pretty": true,
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "esnext",
+    "typeRoots": ["./node_modules", "./node_modules/@types", "./cypress/types/commands"],
+    "types": [
+      "vite/client",
+      "vite-plugin-svgr/client",
+      "jest",
+      "node",
+      "cypress",
+      "cypress-react-router",
+      "@testing-library/cypress"
+    ]
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "exclude": ["node_modules"],
+  "files": ["typings/image.d.ts"],
+  "include": [
+    "typings/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts",
+    "cypress/**/*.js",
+    "cypress/**/*.ts",
+    "cypress/**/*.jsx",
+    "cypress/**/*.tsx",
+    "cypress/**/*.d.ts"
+  ]
 }
