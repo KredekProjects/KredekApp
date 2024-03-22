@@ -1,0 +1,20 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": ["stylelint-config-recommended", "stylelint-config-styled-components"],
+  "ignoreFiles": ["**/*.js", "**/*.ejs", "**/*.ico", "**/*.json"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["extends"]
+      }
+    ],
+    "block-no-empty": true,
+    "unit-disallowed-list": ["em"],
+    "color-hex-length": "short",
+    "string-quotes": "single",
+    "color-named": "never",
+    "declaration-no-important": true,
+    "no-descending-specificity": null
+  }
+}
