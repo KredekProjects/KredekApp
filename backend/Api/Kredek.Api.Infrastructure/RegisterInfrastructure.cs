@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Kredek.Api.Common.Constants;
 using Kredek.Api.Common.Settings;
+using Kredek.Api.Persistance;
 
 namespace Kredek.Api.Infrastructure;
 
@@ -17,6 +18,9 @@ public static class RegisterInfrastructure
         this IServiceCollection services, 
         IConfiguration configuration)
     {
+        // Persistance
+        services.AddPersistance(configuration);
+        
         // Factories
         services.AddSingleton<IGoogleTokenFactory, GoogleTokenFactory>();
 
