@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Kredek.Api.Common\Kredek.Api.Common.csproj" />
     <ProjectReference Include="..\Kredek.Api.Core\Kredek.Api.Core.csproj" />
+    <ProjectReference Include="..\Kredek.Api.Persistance\Kredek.Api.Persistance.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
