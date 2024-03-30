@@ -1,4 +1,4 @@
 [*Model.cs]
 
-# CS8618: Pole niedopuszczaj¹ce wartoœci null musi zawieraæ wartoœæ inn¹ ni¿ null podczas koñczenia dzia³ania konstruktora. Rozwa¿ zadeklarowanie pola jako dopuszczaj¹cego wartoœæ null.
+# CS8618: 
 dotnet_diagnostic.CS8618.severity = suggestion

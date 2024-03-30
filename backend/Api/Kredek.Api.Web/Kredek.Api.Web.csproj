@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Kredek.Api.Core\Kredek.Api.Core.csproj" />
     <ProjectReference Include="..\Kredek.Api.Infrastructure\Kredek.Api.Infrastructure.csproj" />
+    <ProjectReference Include="..\Kredek.Api.Persistance\Kredek.Api.Persistance.csproj" />
   </ItemGroup>
 
 </Project>

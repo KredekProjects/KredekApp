@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kredek.Api.Persistance.Models
+namespace Kredek.Api.Persistance.Models;
+
+public abstract class BaseEntity
 {
-    public abstract class BaseEntity
-    {
-        public virtual DateTime CreatedAt { get; set; }
-        public virtual DateTime ModifiedAt { get; set; }
-    }
+    public virtual DateTime CreatedAt { get; set; }
+    public virtual DateTime ModifiedAt { get; set; }
 }
