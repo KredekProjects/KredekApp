@@ -9,7 +9,7 @@ public static class RegisterPersistance
     {
         services.AddDbContext<KredekDbContext>(options =>
         {
-            options.UseSqlServer(configuration.GetSection(Kredek.Api.Common.Constants.DBConnectionStrings.DefaultConnection));
+            options.UseSqlServer(configuration.GetValue<string>(Kredek.Api.Common.Constants.DBConnectionStrings.DefaultConnection));
         });
 
         return services;
