@@ -17,6 +17,7 @@ public static class RegisterInfrastructure
         this IServiceCollection services, 
         IConfiguration configuration)
     {
+        
         // Factories
         services.AddSingleton<IGoogleTokenFactory, GoogleTokenFactory>();
 
