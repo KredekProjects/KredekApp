@@ -1,12 +1,7 @@
-﻿namespace Kredek.Api.Persistance;
-
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 using Kredek.Api.Persistance.Models;
+
+namespace Kredek.Api.Persistance;
 
 public class KredekDbContext : DbContext
 {

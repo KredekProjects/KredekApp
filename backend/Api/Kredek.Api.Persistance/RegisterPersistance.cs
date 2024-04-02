@@ -1,7 +1,8 @@
-﻿namespace Kredek.Api.Persistance;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+namespace Kredek.Api.Persistance;
 
 public static class RegisterPersistance
 {
